@@ -9,9 +9,9 @@
 	"whayay_crosshair"
 	{
 		// Change these
-		"enabled"													"0"
-		"visible"													"0"
-		"labeltext"													"f"
+		"enabled"													"1"
+		"visible"													"1"
+		"labeltext"													"y"
 		"font"														"CrosshairOLSmall"
 		"fgcolor"													"ya_crosshair"
 		
@@ -20,7 +20,7 @@
 		"fieldname"													"whayay_crosshair"
 		"textAlignment"												"center"
 		"xpos"														"0"
-		"ypos"														"0"
+		"ypos"														"-1"
 		"zpos"														"0"
 		"wide"														"f0"
 		"tall"														"f0"        
