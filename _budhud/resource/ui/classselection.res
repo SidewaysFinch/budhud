@@ -261,6 +261,9 @@
 		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
 		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
 		
+		"labelText"													"&R"
+		"Command"													"joinclass random"
+		
 		"xpos"														"-245"
 		"ypos"														"-13"
 	}
