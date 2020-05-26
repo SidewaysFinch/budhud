@@ -12,6 +12,9 @@
 		Animate				ChargeMeter 						fgcolor						bh_chargecolor1				Linear 0.0 0.3
 		Animate				ChargeMeter 						fgcolor						bh_chargecolor2				Linear 0.3 0.4
 		
+		Animate				DeathLabel 							fgcolor						bh_chargecolor1				Linear 0.0 0.3
+		Animate				DeathLabel 							fgcolor						bh_chargecolor2				Linear 0.3 0.4
+		
 		// Increasing this value slows the speed of the animation down
 		RunEvent 			HudMedicChargedLoop												1.0
 	}
@@ -31,4 +34,5 @@
 		
 		Animate				ChargeLabel 						fgcolor						bh_chargemeter				Linear 0.0 0.0001
 		Animate				ChargeMeter 						fgcolor						bh_chargemeter				Linear 0.0 0.0001
+		Animate				DeathLabel	 						fgcolor						bh_chargemeter				Linear 0.0 0.0001
 	}

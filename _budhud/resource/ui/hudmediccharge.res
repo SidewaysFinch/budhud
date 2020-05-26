@@ -133,6 +133,42 @@
 		"fgcolor"													"bh_white"
 	}
 	
+	"ChargeLabelTiny"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelTiny"
+		"xpos"			"c-44"
+		"ypos"			"c-19"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"50"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"				//1 enables % under xHair
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"bh_Font4Drop"
+		"fgcolor"		"White"
+	}
+	
+	"DeathLabel"
+	{
+		"ControlName"												"Label"
+		"labelText"													"Chance of me dying"
+		"xpos"														"r250"
+		"ypos"														"c125"
+		"wide"														"75"
+		"tall"														"25"
+		"textAlignment"												"center"
+		"font"														"bh_Font10Drop"
+		"fgcolor"													"bh_white"
+	}
+	
+	
 	"ResistIcon"
 	{
 		"pin_to_sibling" 											"bh_ResistNav"
