@@ -115,7 +115,7 @@ Scheme
 		//////////////////////
 
 		"ya_crosshair"												"255 255 255 0" 	// Crosshair color
-		"ya_crosshairflash"											"0 255 255 255"	// Flash on damage done
+		"ya_crosshairflash"											"255 255 255 255"	// Flash on damage done
 		
 		///////////////////
 		// Fog's Crosshairs
