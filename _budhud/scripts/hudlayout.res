@@ -16,8 +16,8 @@
 		"fieldName" 												"HudDamageIndicator"		// Remove everything besides 
 		"visible" 													"1" 	                    //
 		"enabled" 													"1" 	                    //	"HudDamageIndicator
-		"MinimumWidth" 												"7"                 		//	{
-		"MaximumWidth" 												"24"                 		//	}	"
+		"MinimumWidth" 												"2"                 		//	{
+		"MaximumWidth" 												"60"                 		//	}	"
 		"StartRadius" 												"80"                  		//
 		"EndRadius" 												"80"                    	// To get the default back
 		"MinimumHeight" 											"40"                		//
@@ -35,7 +35,7 @@
 		"fieldName" 												"HudWeaponAmmo"
 		"visible" 													"1"
 		"enabled" 													"1"
-		"xpos"														"c50"
+		"xpos"														"c-25"
 		"ypos"														"c41"
 		"wide"														"250"
 		"tall"														"150"
@@ -215,7 +215,7 @@
 	"CHudAccountPanel"
 	{
 		"xpos"														"c-100"
-		"ypos"														"c110"
+		"ypos"														"c-3"
 		"wide"														"200"
 		"tall"														"50"
 		"textAlignment"												"center"
@@ -310,7 +310,7 @@
 		"IconScale"	 												"0.35"
 		"LineHeight"		 										"13"
 		"LineSpacing"												"1"
-		"CornerRadius"	 	 										"3"
+		"CornerRadius"	 	 										"0"
 		"RightJustify"	 	 										"1"	// If 1, draw notices from the right
 
 		"TextFont"													"bh_Font12"

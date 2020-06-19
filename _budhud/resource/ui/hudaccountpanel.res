@@ -29,7 +29,7 @@
 		"ypos"														"0"
 		"wide"														"200"
 		"tall"														"50"
-		"font"														"bh_Font24"
+		"font"														"bh_Font16"
 		"fgcolor_override"											"bh_white"
 	}
 	"AccountValueShadow"
@@ -50,7 +50,7 @@
 		"textAlignment"												"center"
 		"dulltext"													"0"
 		"brighttext"												"0"
-		"font"														"bh_Font24"
+		"font"														"bh_Font16"
 		"fgcolor_override"											"bh_Shadow"
 	}
 }

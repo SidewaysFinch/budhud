@@ -123,14 +123,29 @@
 	"ChargeLabel"
 	{
 		"labelText"													"#TF_UberchargeMinHUD"
-		"xpos"														"c50"
+		"xpos"														"c15"
 		"ypos"														"c41"
 		"zpos"														"2"
 		"wide"														"250"
 		"tall"														"150"
 		"textAlignment"												"center"
-		"font"														"bh_Font40Drop"
+		"font"														"bh_Font40"
 		"fgcolor"													"bh_white"
+	}
+	
+	"ChargeLabelShadow"
+	{
+		"ControlName"												"CExLabel"
+		"fieldName"													"ChargeLabelShadow"
+		"labelText"													"#TF_UberchargeMinHUD"
+		"xpos"														"c16"
+		"ypos"														"c42"
+		"zpos"														"2"
+		"wide"														"250"
+		"tall"														"150"
+		"textAlignment"												"center"
+		"font"														"bh_Font40"
+		"fgcolor"													"bh_Ammo_Main_Shadow"
 	}
 	
 	"ChargeLabelTiny"
@@ -151,7 +166,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"bh_Font4Drop"
+		"font"			"bh_Font4"
 		"fgcolor"		"White"
 	}
 	
@@ -159,12 +174,12 @@
 	{
 		"ControlName"												"Label"
 		"labelText"													"Chance of me dying"
-		"xpos"														"r250"
+		"xpos"														"r275"
 		"ypos"														"c125"
 		"wide"														"75"
 		"tall"														"25"
 		"textAlignment"												"center"
-		"font"														"bh_Font10Drop"
+		"font"														"bh_Font10"
 		"fgcolor"													"bh_white"
 	}
 	
