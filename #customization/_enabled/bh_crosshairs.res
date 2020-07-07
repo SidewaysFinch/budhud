@@ -14,7 +14,7 @@
 		"enabled"													"1"
 		"visible"													"1"
 		"labeltext"													"y"
-		"font"														"Crosshair: wayhay | Size: 16 | Outline: On"
+		"font"														"Crosshair: whayay | Size: 20 | Outline: On"
 		"fgcolor"													"whayay_crosshair"
 		
 		// Defaults
