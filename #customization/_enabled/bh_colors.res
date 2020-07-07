@@ -116,6 +116,9 @@ Scheme
 
 		"ya_crosshair"												"255 255 255 0" 	// Crosshair color
 		"ya_crosshairflash"											"255 255 255 255"	// Flash on damage done
+
+		"whayay_crosshair"											"255 255 255 255" 	// Crosshair color
+		"whayay_crosshairflash"										"240 134 049 255"	// Flash on damage done
 		
 		///////////////////
 		// Fog's Crosshairs
@@ -130,6 +133,13 @@ Scheme
 
 		"knuckles_crosshair"										"255 255 255 255" 	// Crosshair color
 		"knuckles_crosshairflash"									"240 134 049 255"	// Flash on damage done
+		
+		///////////////////////
+		// Garm3n's Crosshairs
+		///////////////////////
+
+		"garm3n_crosshair"											"255 255 255 255" 	// Crosshair color
+		"garm3n_crosshairflash"										"240 134 049 255"	// Flash on damage done
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Menu Colors
