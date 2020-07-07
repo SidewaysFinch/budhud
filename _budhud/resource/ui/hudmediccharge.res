@@ -115,7 +115,7 @@
 		"wide"														"250"
 		"tall"														"150"
 		"labeltext"													"#TF_IndividualUberchargesMinHUD"
-		"font"														"bh_Font40Drop"
+		"font"														"bh_Font40DropShadow"
 		"fgcolor"													"bh_white"
 		"textalignment"												"center"
 	}
@@ -131,21 +131,6 @@
 		"textAlignment"												"center"
 		"font"														"bh_Font40"
 		"fgcolor"													"bh_white"
-	}
-	
-	"ChargeLabelShadow"
-	{
-		"ControlName"												"CExLabel"
-		"fieldName"													"ChargeLabelShadow"
-		"labelText"													"#TF_UberchargeMinHUD"
-		"xpos"														"c16"
-		"ypos"														"c42"
-		"zpos"														"2"
-		"wide"														"250"
-		"tall"														"150"
-		"textAlignment"												"center"
-		"font"														"bh_Font40"
-		"fgcolor"													"bh_Ammo_Main_Shadow"
 	}
 	
 	"ChargeLabelTiny"
@@ -180,6 +165,7 @@
 		"tall"														"25"
 		"textAlignment"												"center"
 		"font"														"bh_Font10"
+		"font"														"bh_Font40DropShadow"
 		"fgcolor"													"bh_white"
 	}
 	

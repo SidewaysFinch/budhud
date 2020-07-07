@@ -1,28 +1,69 @@
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Don't edit unless you know what you're doing!
+	// ============================================================================================== //
+	// Note: Include quotes around font defs when replacing
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Occurences (replaced)
+	// ============================================================================================== //
+	// Verdana: 81
+	// TF2 Secondary: 48
+	// TF2 Build: 32
+	// TF2: 31
+	// ocra: 12
+	// Tahoma: 7
+	// Arial: 5
+	// TF2 Professor: 6
+	// Trebuchet MS: 5
+	// Courier New: 2
+	// Arial Black: 1
+	// Helvetica: 1
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Occurences (not replaced)
+	// ============================================================================================== //
+	// Buttons: 3
+	// ButtonsSC: 3
+	// Marlett: 3
+	// Team Fortress: 2
+	// tfd: 1
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
 Scheme
 {
 	Fonts
 	{
+		// Floating health bar name text
         "DefaultFixedOutline"
         {
             "1"
             {
-                "name"												"TF2 Secondary"
+                "name"												"TF2 Build"
                 "tall"												"12"
                 "weight"											"0"
                 "outline"											"0"
                 "additive"											"0"
                 "antialias"											"1"
             }
-        }	
-	
+        }
+		
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Font w/ antialias only
+		////////////////////////////////////////////////////////////////////////////////////////////////////
+		
 		bh_Font6
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"6"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
@@ -30,10 +71,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"8"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
@@ -41,22 +84,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"10"
 				"weight"											"500"
 				"antialias"											"1"
-			}
-		}
-		
-		bh_Font10Drop
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"10"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
@@ -64,10 +97,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"12"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
@@ -75,22 +110,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"14"
 				"weight"											"500"
 				"antialias"											"1"
-			}
-		}
-		
-		bh_Font14Drop
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"14"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
@@ -98,10 +123,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"16"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
@@ -109,10 +136,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"18"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
@@ -120,33 +149,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"20"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
-		bh_Font20Outline
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"20"
-				"weight"											"500"
-				"antialias"											"1"
-				"outline"											"1"
-			}
-		}
-
 		bh_Font22
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"22"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
@@ -154,10 +175,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"24"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
@@ -165,21 +188,38 @@ Scheme
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"26"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
-		bh_Font31
+		bh_Font28
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
-				"tall"												"32"
+				"name"												"TF2 Build"
+				"tall"												"28"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font30
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"30"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}		
 		
@@ -187,32 +227,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"32"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
-		
-		bh_Font34
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"34"
-				"weight"											"500"
-				"antialias"											"1"
-			}
-		}		
 		
 		bh_Font36
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"36"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 		
@@ -220,173 +253,560 @@ Scheme
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"40"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
-		}
-		
-		bh_Font40Drop
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"40"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-			}
-		}
-		
-		bh_Font41
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"41"
-				"weight"											"500"
-				"antialias"											"1"
-			}
-		}		
-		
-		bh_Font46
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"46"
-				"weight"											"500"
-				"antialias"											"1"
-			}
-		}		
+		}	
 		
 		bh_Font48
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"48"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
-		}	
+		}
 		
 		bh_Font50
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"50"
 				"weight"											"500"
 				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
-		}	
-		
-		bh_Font50Drop
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"50"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-			}
-		}
-		
-		bh_Font55
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"55"
-				"weight"											"500"
-				"antialias"											"1"
-			}
-		}
-		
-		bh_Font55Drop
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"55"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
-			}
-		}
+		}		
 		
 		bh_Font60
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
+				"name"												"TF2 Build"
 				"tall"												"60"
 				"weight"											"500"
 				"antialias"											"1"
-			}
-		}
-		
-		bh_Font60Drop
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"60"
-				"weight"											"500"
-				"antialias"											"1"
-				"dropshadow"										"1"
+				"dropshadow"										"0"
+				"outline"											"0"
 			}
 		}
 	
-		bh_Font65
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Font w/ Drop Shadow
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+		bh_Font6DropShadow
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
-				"tall"												"65"
-				"weight"											"500"
-				"antialias"											"1"
-			}
-		}
-		
-		bh_Font65Drop
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"65"
+				"name"												"TF2 Build"
+				"tall"												"6"
 				"weight"											"500"
 				"antialias"											"1"
 				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font8DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"8"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font10DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"10"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font12DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"12"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font14DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"14"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font16DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"16"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font18DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"18"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font20DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"20"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font22DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"22"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font24DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"24"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font26DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"26"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font28DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"28"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font30DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"30"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
 			}
 		}		
 		
-		bh_Font70
+		bh_Font32DropShadow
 		{
 			"1"
 			{
-				"name"												"TF2 Secondary"
-				"tall"												"70"
-				"weight"											"500"
-				"antialias"											"1"
-			}
-		}
-		
-		bh_Font70Drop
-		{
-			"1"
-			{
-				"name"												"TF2 Secondary"
-				"tall"												"70"
+				"name"												"TF2 Build"
+				"tall"												"32"
 				"weight"											"500"
 				"antialias"											"1"
 				"dropshadow"										"1"
+				"outline"											"0"
 			}
 		}
 		
+		bh_Font36DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"36"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font40DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"40"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}	
+		
+		bh_Font48DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"48"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+		
+		bh_Font50DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"50"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+
+		bh_Font60DropShadow
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"60"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"1"
+				"outline"											"0"
+			}
+		}
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Font w/ Outline
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+		bh_Font6Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"6"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font8Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"8"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font10Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"10"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font12Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"12"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font14Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"14"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font16Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"16"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font18Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"18"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font20Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"20"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font22Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"22"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font24Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"24"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font26Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"26"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font28Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"28"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font30Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"30"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}		
+		
+		bh_Font32Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"32"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font36Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"36"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font40Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"40"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}	
+		
+		bh_Font48Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"48"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+		bh_Font50Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"50"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}	
+		
+		bh_Font60Outline
+		{
+			"1"
+			{
+				"name"												"TF2 Build"
+				"tall"												"60"
+				"weight"											"500"
+				"antialias"											"1"
+				"dropshadow"										"0"
+				"outline"											"1"
+			}
+		}
+		
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Default clientscheme + replace-all
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
