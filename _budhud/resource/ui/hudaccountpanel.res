@@ -8,6 +8,11 @@
 	"MetalIcon"
 	{
 		"ypos"														"r-6969"
+		
+		//"wide"														"8"
+		//"tall"														"8"
+		//"xpos"														"80"
+		//"ypos"														"20"
 	}
 
 	"CHudAccountPanel"
@@ -15,8 +20,8 @@
 		"delta_item_x"												"120"
 		"delta_item_start_y"										"15"
 		"delta_item_end_y"											"25"
-		"PositiveColor"												"bh_Theme_AccentPrimary"
-		"NegativeColor"												"bh_red"
+		"PositiveColor"												"bh_Health_Pickup"
+		"NegativeColor"												"bh_Health_Low"
 		"delta_lifetime"											".9"
 		"delta_item_font"											"bh_Font16"
 	}

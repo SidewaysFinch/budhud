@@ -1,0 +1,45 @@
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Medic Normal Uber Flash
+	// ============================================================================================== //
+	// See instructions here: https://github.com/rbjaxter/budhud/wiki/Customization#medic-rainbow-ubercharge
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	event HudMedicCharged
+	{
+		Animate				ChargeLabel 						fgcolor						bh_chargecolor1				Linear 0.0 0.2
+		Animate				ChargeLabel 						fgcolor						bh_chargecolor2				Linear 0.2 0.8
+		
+		Animate				DeathLabel 						Position					"r270 c130"					Bounce 0.0 0.1
+		Animate				DeathLabel 						Position					"r279 c119"					Bounce 0.1 0.2
+		Animate				DeathLabel 						Position					"r278 c124"					Bounce 0.2 0.3
+		Animate				DeathLabel 						Position					"r282 c127"					Bounce 0.3 0.4
+		Animate				DeathLabel 						Position					"r271 c122"					Bounce 0.4 0.5
+		Animate				DeathLabel 						Position					"r283 c128"					Bounce 0.5 0.6
+		Animate				DeathLabel 						Position					"r278 c124"					Bounce 0.6 0.7
+		Animate				DeathLabel 						Position					"r270 c130"					Bounce 0.7 0.8
+		Animate				DeathLabel 						Position					"r281 c129"					Bounce 0.8 0.9
+		Animate				DeathLabel 						Position					"r272 c127"					Bounce 0.8 0.9
+		Animate				DeathLabel 						Position					"r271 c122"					Bounce 0.9 1.0
+		
+		// Increasing this value slows the speed of the animation down
+		RunEvent 			HudMedicChargedLoop												1
+	}
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	// call to loop HudHealthBonusPulse
+	event HudMedicChargedLoop
+	{
+		RunEvent 			HudMedicCharged 												0.0
+	}
+	
+	event HudMedicChargedStop
+	{
+		StopEvent 			HudMedicCharged 												0.0
+		StopEvent 			HudMedicChargedLoop 											0.0
+		
+		Animate				ChargeLabel 						fgcolor						bh_chargemeter				Linear 0.0 0.0001
+		Animate				ChargeLabel							Position					"r275 c125"					Linear 0.0 0.0001
+		Animate				ChargeMeter 						fgcolor						bh_chargemeter				Linear 0.0 0.0001
+		Animate				DeathLabel	 						fgcolor						bh_chargemeter				Linear 0.0 0.0001
+	}

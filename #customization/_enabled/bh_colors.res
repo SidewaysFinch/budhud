@@ -12,6 +12,17 @@
 	// left double quotation mark (“).
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
+	//PALETTE GENERATOR
+	//https://coolors.co/78c6f7-80ed99-503d42-ed6a5a-ac80a0
+	// Maya Blue	(blu)	"120 198 247 255"
+	// Light Green	(grn)	"128 237 153 255"
+	// Old Burgundy	(brwn)	"080 061 066 255"
+	// Terra Cotta	(red)	"237 106 090 255"
+	// Cultured		(white)	"240 240 240 255"
+	// Navajo White (tan)	"255 220 166 255"
+	// Deep Saffron (orange)"225 154 066 255"
+	// Pink Lavender (Pink) "243 150 244 200"
+	
 Scheme
 {
 	Colors
@@ -21,40 +32,41 @@ Scheme
 	// Health
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		"bh_Health_Main"											"255 255 255 255"
-		"bh_Health_Shadow"											"000 000 000 255"
-		"bh_Health_Low"												"186 032 032 255"
-		"bh_Health_Buff"											"000 153 255 255"
-		"bh_Health_Pickup"											"240 134 049 255"
+		"bh_Health_Main"											"240 240 240 255"
+		"bh_Health_Shadow"											"080 061 066 255"
+		"bh_Health_Midtone"											"243 150 244 200"
+		"bh_Health_Low"												"237 106 090 255"
+		"bh_Health_Buff"											"120 198 247 255"
+		"bh_Health_Pickup"											"128 237 153 255"
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Ammo
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-		"bh_Ammo_Main"												"255 255 255 255"
-		"bh_Ammo_Reserve"											"255 255 255 255"
-		"bh_Ammo_Low"												"186 032 032 255"
-		"bh_Ammo_Main_Shadow"										"000 000 000 255"
-		"bh_Ammo_Reserve_Shadow"									"000 000 000 255"
+		"bh_Ammo_Main"												"240 240 240 255"
+		"bh_Ammo_Reserve"											"220 220 220 255"
+		"bh_Ammo_Low"												"237 106 090 255"
+		"bh_Ammo_Main_Shadow"										"080 061 066 255" 
+		"bh_Ammo_Reserve_Shadow"									"080 061 066 255" 
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Customization: Ammo and Health Box
 	////////////////////////////////////////////////////////////////////////////////////////////////////	
 
 		"bh_AmmoBox_Base"											"150 150 150 125"
-		"bh_AmmoBox_Low"											"186 032 032 255"
+		"bh_AmmoBox_Low"											"237 106 090 255"
 		
 		"bh_HealthBox_Base"											"150 150 150 125"
-		"bh_HealthBox_Low"											"186 032 032 125"
-		"bh_HealthBox_Buff"											"000 153 255 125"
+		"bh_HealthBox_Low"											"237 106 090 255"
+		"bh_HealthBox_Buff"											"120 198 247 255"
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Damage Done & Heals Given
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-		"bh_hudDMGDisplay"											"243 157 048 255" 	// Static damage number that appears bottom center of screen
-		"bh_HealColor"												"000 153 255 255" 	// Medigun/arrow heal color
-		"bh_UberDrop"												"255 105 180 255"	// Uber drop color
+		"bh_hudDMGDisplay"											"237 106 090 255" 	// Static damage number that appears bottom center of screen
+		"bh_HealColor"												"128 237 153 255" 	// Medigun/arrow heal color
+		"bh_UberDrop"												"120 198 247 255"	// Uber drop color
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// TargetIDs
@@ -64,9 +76,9 @@ Scheme
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"bh_TargetID_Base"											"150 150 150 255"
-		"bh_TargetID_Low"											"186 032 032 255"
-		"bh_TargetID_Buff"											"000 153 255 255"
-		"bh_TargetID_NameBG"										"000 000 000 125"	// Color of background behind player's name
+		"bh_TargetID_Low"											"237 106 090 255"
+		"bh_TargetID_Buff"											"120 198 247 255"
+		"bh_TargetID_NameBG"										"080 061 066 255"	// Color of background behind player's name
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Uber Charge Meter
@@ -76,8 +88,10 @@ Scheme
 		// Default Charge Meter Colors
 		//////////////////////////////
 	
-		"bh_chargecolor1"											"243 157 048 255"	// When full, uber will change between these two values
-		"bh_chargecolor2"											"204 093 027 255"
+		"bh_chargecolor1"											"255 160 187 255"	// When full, uber will change between these two values
+		"bh_chargecolor2"											"120 198 247 255"
+		"bh_chargecolor3"											"128 237 153 255"
+		"bh_chargecolor4"											"225 154 066 255"
 		"bh_chargemeter"											"255 255 255 255"	// Uber chargemeter fill color
 		"bh_chargemeterBG"											"150 150 150 255"	// Uber chargemeter background
 
@@ -114,8 +128,8 @@ Scheme
 		// whayay's Crosshairs
 		//////////////////////
 
-		"whayay_crosshair"											"255 255 255 0" 	// Crosshair color
-		"whayay_crosshairflash"										"255 255 255 255"	// Flash on damage done
+		"ya_crosshair"												"255 255 255 0" 	// Crosshair color
+		"ya_crosshairflash"											"255 255 255 255"	// Flash on damage done
 		
 		///////////////////
 		// Fog's Crosshairs
@@ -130,13 +144,6 @@ Scheme
 
 		"knuckles_crosshair"										"255 255 255 255" 	// Crosshair color
 		"knuckles_crosshairflash"									"240 134 049 255"	// Flash on damage done
-		
-		///////////////////////
-		// Garm3n's Crosshairs
-		///////////////////////
-
-		"garm3n_crosshair"											"255 255 255 255" 	// Crosshair color
-		"garm3n_crosshairflash"										"240 134 049 255"	// Flash on damage done
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Menu Colors

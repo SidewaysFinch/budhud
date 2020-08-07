@@ -56,7 +56,7 @@
 	
 	"HudSpectatorExtras"
 	{
-		"player_name_font"											"bh_Font10DropShadow"
+		"player_name_font"											"bh_Font10Drop"
 	}	
 	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -98,8 +98,8 @@
 	
 	"CHealthAccountPanel"	
 	{	
-		"xpos"														"c-150"
-		"ypos"														"r180"
+		"xpos"														"c-195"
+		"ypos"														"r210"
 		"zpos"														"-1"
 		"wide"														"100"
 		"tall"														"100"

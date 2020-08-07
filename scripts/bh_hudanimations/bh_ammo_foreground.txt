@@ -33,6 +33,7 @@
 		// Hide ammo box background
 		Animate 			bh_AmmoBG							alpha						0							Linear 0.0 0.0
 		
+
 		RunEvent 			HudLowAmmoPulseLoop												0.4
 	}
 	

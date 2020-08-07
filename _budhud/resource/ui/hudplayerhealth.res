@@ -75,6 +75,27 @@
 		
 		"ControlName"												"CExLabel"
 		"fieldName"													"PlayerStatusHealthValueShadow"
+		"xpos"														"-2"
+		"ypos"														"-2"
+		"zpos"														"5"
+		"wide"														"250"
+		"tall"														"150"
+		"visible"													"1"
+		"enabled"													"1"
+		"labelText"													"%Health%"
+		"textAlignment"												"center"	
+		"font"														"bh_Font40"
+		"fgcolor"													"bh_Health_Shadow"
+	}
+
+	"PlayerStatusHealthValueMidtone"
+	{
+		"pin_to_sibling" 											"PlayerStatusHealthValue"
+		"pin_corner_to_sibling" 									"PIN_TOPCENTER"
+		"pin_to_sibling_corner" 									"PIN_TOPCENTER"
+		
+		"ControlName"												"CExLabel"
+		"fieldName"													"PlayerStatusHealthValueMidtone"
 		"xpos"														"-1"
 		"ypos"														"-1"
 		"zpos"														"6"
@@ -85,7 +106,7 @@
 		"labelText"													"%Health%"
 		"textAlignment"												"center"	
 		"font"														"bh_Font40"
-		"fgcolor"													"bh_Shadow"
+		"fgcolor"													"bh_Health_Midtone"
 	}
 	
 	"PlayerStatusHealthBonusImage"

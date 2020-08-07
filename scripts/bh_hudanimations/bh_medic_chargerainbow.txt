@@ -25,7 +25,7 @@
 		Animate 		ChargeMeter								fgcolor						bh_rainbowcolor7			Linear 1.4 0.2
 		
 		// Increasing this value slows the speed of the animation down
-		RunEvent 		HudMedicChargedLoop													1.6
+		RunEvent 		HudMedicChargedLoop													1.5
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////
