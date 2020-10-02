@@ -159,7 +159,7 @@
 	{
 		"ControlName"												"Label"
 		"labelText"													"Chance of me dying"
-		"xpos"														"r275"
+		"xpos"														"r265"
 		"ypos"														"c125"
 		"wide"														"75"
 		"tall"														"25"
