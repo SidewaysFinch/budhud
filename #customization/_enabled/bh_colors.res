@@ -35,9 +35,9 @@ Scheme
 	// have different colors for each. Most will only use `hud_crosshair_1`
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		//////////////////////
-		// HUD Crosshair
-		//////////////////////
+		/////////////////////////
+		// Unified HUD Crosshairs
+		/////////////////////////
 
 		"hud_crosshair_1"											"255 255 255 0" 	// Crosshair color
 		"hud_crosshair_1_flash"										"255 255 255 255"	// Flash on damage done
@@ -49,8 +49,24 @@ Scheme
 		"hud_crosshair_3_flash"										"240 134 049 255"	// Flash on damage done
 
 	
+		////////////////////
+		// Legacy Crosshairs
+		////////////////////
+
+		"hud_crosshair_whayay"										"255 255 255 255" 	// Crosshair color
+		"hud_crosshair_whayay_flash"								"240 134 049 255"	// Flash on damage done
+
+		"hud_crosshair_knuckles"									"255 255 255 255" 	// Crosshair color
+		"hud_crosshair_knuckles_flash"								"240 134 049 255"	// Flash on damage done
+
+		"hud_crosshair_fog"											"255 255 255 255" 	// Crosshair color
+		"hud_crosshair_fog_flash"									"240 134 049 255"	// Flash on damage done
+	
+	
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Health
+	// ============================================================================================== //
+	// Health animations are controlled in `\budhud\scripts\hudanimations_manifest.txt`
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"bh_Health_Main"											"240 240 240 255"
@@ -62,6 +78,8 @@ Scheme
 		
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Ammo
+	// ============================================================================================== //
+	// Ammo animations are controlled in `\budhud\scripts\hudanimations_manifest.txt`
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 		"bh_Ammo_Main"												"240 240 240 255"
