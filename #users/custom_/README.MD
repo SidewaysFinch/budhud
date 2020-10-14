@@ -20,12 +20,12 @@ Making edits is done in 3 steps:
 2. Make your edits.
 3. Find the same file in `budhud\resource` and add `#base	"..\..\#users\custom\resource\ui\FILENAME.res"` to the top of the file.
 
-####1. Copying files
+#### 1. Copying files
 Simply copy and paste the specific file you want to edit into `#users\custom` (this folder). It follows the same file structure, so make sure the file is put back in the same place with the same name. 
 For example, if I wanted to change my hud's colors, I would copy `..\budhud\#customization\_enabled\bh_colors.res` to `..\budhud\#users\custom\#customization\_enabled\bh_colors.res` then make my edits in the latter file.
 
 
-####2. Editing files
+#### 2. Editing files
 See the Preface for more info on hud editing.
 Once you make your edits, it's reccomended to delete all other variables and parts that you haven't changed while preserving the overall structure. Using `bh_colors.res` as an example again:
 
@@ -35,18 +35,16 @@ Scheme
 {
 	Colors
 	{
-	
 		...
 
 		/////////////////////////
 		// Unified HUD Crosshairs
 		/////////////////////////
 
-		"hud_crosshair_1"											"255 255 255 255" 	// Crosshair color
-		"hud_crosshair_1_flash"										"240 134 049 255"	// Flash on damage done
+		"hud_crosshair_1"		"255 255 255 255" 	// Crosshair color
+		"hud_crosshair_1_flash"		"240 134 049 255"	// Flash on damage done
 		
 		...
-
 	}
 	
 	BaseSettings
@@ -63,15 +61,15 @@ Scheme
 {
 	Colors
 	{
-		"hud_crosshair_1"											"255 255 255 0" 	// Start transparent
-		"hud_crosshair_1_flash"										"255 255 255 255"	// Flash white on damage done
+		"hud_crosshair_1"		"255 255 255 0" 	// Start transparent
+		"hud_crosshair_1_flash"		"255 255 255 255"	// Flash white on damage done
 	}
 }
 ```
 Note that all of the unchanged code has been removed. 
 
 
-####3. Telling budhud about your file
+#### 3. Telling budhud about your file
 For most files outside of the `..\resource` folder, you shouldn't have to do anything else. For files inside of `..\resource` we need to make one last change.
 
 Navigate to the same file, this time in `budhud\resource\..YOURFILE`. If I changed the medic's Ubercharge meter, that would be `..\budhud\resource\ui\hudmediccharge.res`. Opening the file, I would then add a line to the top of the file:
@@ -90,7 +88,7 @@ Navigate to the same file, this time in `budhud\resource\..YOURFILE`. If I chang
 Now, TF2 will load from budhud first, then apply our changes _on top of it_. In the future, if budhud or TF2 changes, all you'll have to do is replace the files that got changed while keeping yours in `custom` and your changes should be there!
 
 ## Closing Remarks
-###Misc notes/tips
+### Misc notes/tips
 * One way to keep budhud up to date is to fork it on github and use that to preserve your edits while merging in updates to budhud.
 * If you want the `#users\custom` folder to have a different name, you can rename the folder and change the path name in the following files:
   * `budhud\resource\clientscheme.res`
