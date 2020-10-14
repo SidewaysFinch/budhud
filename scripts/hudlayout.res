@@ -7,6 +7,7 @@
 	// User Customization
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	#base	"..\#users\toth\scripts\hudlayout.res"
+	#base	"..\#users\custom\scripts\hudlayout.res"
 	#base	"..\#users\dane\scripts\hudlayout.res"
 	#base	"..\#users\ly_dee\scripts\hudlayout.res"
 	#base	"..\_stream\scripts\hudlayout.res"
