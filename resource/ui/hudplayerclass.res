@@ -1,6 +1,7 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////////
 	// User Customization
 	////////////////////////////////////////////////////////////////////////////////////////////////////
+	#base	"..\..\#users\custom\#customization\_enabled\bh_crosshairs.res"
 	#base	"..\..\#users\dane\#customization\bh_crosshairs.res"
 	#base	"..\..\#users\whisker\#customization\bh_crosshairs.res"
 	#base	"..\..\#users\ly_dee\#customization\bh_crosshairs.res"
