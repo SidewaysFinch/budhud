@@ -6,12 +6,27 @@
 
 	event HudMedicCharged
 	{
-		Animate				ChargeLabel 						fgcolor						bh_chargecolor1				Linear 0.0 0.3
-		Animate				ChargeLabel 						fgcolor						bh_chargecolor2				Linear 0.3 0.4
+		Animate				ChargeLabel 						fgcolor						bh_chargecolor1				Linear 0.0 0.5
+		Animate				ChargeLabel 						fgcolor						bh_chargecolor2				Linear 0.5 1.0
 		
-		Animate				ChargeMeter 						fgcolor						bh_chargecolor1				Linear 0.0 0.3
-		Animate				ChargeMeter 						fgcolor						bh_chargecolor2				Linear 0.3 0.4
+		Animate				ChargeMeter 						fgcolor						bh_chargecolor1				Linear 0.0 0.5
+		Animate				ChargeMeter 						fgcolor						bh_chargecolor2				Linear 0.5 1.0
 		
+		Animate				DeathLabel 							fgcolor						bh_chargecolor1				Linear 0.0 0.5
+		Animate				DeathLabel 							fgcolor						bh_chargecolor2				Linear 0.5 1.0
+
+		Animate				DeathLabel 							Position					"r260 c130"					Bounce 0.0 0.1
+		Animate				DeathLabel 							Position					"r269 c119"					Bounce 0.1 0.2
+		Animate				DeathLabel 							Position					"r268 c124"					Bounce 0.2 0.3
+		Animate				DeathLabel 							Position					"r272 c127"					Bounce 0.3 0.4
+		Animate				DeathLabel 							Position					"r261 c122"					Bounce 0.4 0.5
+		Animate				DeathLabel 							Position					"r273 c128"					Bounce 0.5 0.6
+		Animate				DeathLabel 							Position					"r268 c124"					Bounce 0.6 0.7
+		Animate				DeathLabel 							Position					"r260 c130"					Bounce 0.7 0.8
+		Animate				DeathLabel 							Position					"r271 c129"					Bounce 0.8 0.9
+		Animate				DeathLabel 							Position					"r262 c127"					Bounce 0.8 0.9
+		Animate				DeathLabel 							Position					"r261 c122"					Bounce 0.9 1.0
+
 		// Increasing this value slows the speed of the animation down
 		RunEvent 			HudMedicChargedLoop												1.0
 	}
@@ -31,4 +46,6 @@
 		
 		Animate				ChargeLabel 						fgcolor						bh_chargemeter				Linear 0.0 0.0001
 		Animate				ChargeMeter 						fgcolor						bh_chargemeter				Linear 0.0 0.0001
+		Animate				DeathLabel	 						fgcolor						bh_chargemeter				Linear 0.0 0.0001
+		Animate				DeathLabel							Position					"r265 c125"					Linear 0.0 0.0001
 	}
