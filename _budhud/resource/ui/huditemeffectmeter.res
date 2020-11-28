@@ -1,5 +1,11 @@
-	#base	"..\..\#users\custom\resource\ui\huditemeffectmeter_base_meters_pos3.res"
+	#base	"..\..\#users\custom\resource\ui\huditemeffectmeter_base_counters.res"
+	#base	"..\..\#users\custom\resource\ui\huditemeffectmeter_base_counters_pos1.res"
+	#base	"..\..\#users\custom\resource\ui\huditemeffectmeter_base_counters_pos2.res"
 	#base	"..\..\#users\custom\resource\ui\huditemeffectmeter_base_meters.res"
+	#base	"..\..\#users\custom\resource\ui\huditemeffectmeter_base_meters_pos1.res"
+	#base	"..\..\#users\custom\resource\ui\huditemeffectmeter_base_meters_pos2.res"
+	#base	"..\..\#users\custom\resource\ui\huditemeffectmeter_base_meters_pos2_2bars.res"
+	#base	"..\..\#users\custom\resource\ui\huditemeffectmeter_base_meters_pos3.res"
 	#base 	"huditemeffectmeter_base_meters_pos3.res"
 	#base	"huditemeffectmeter_base_meters.res"
 
